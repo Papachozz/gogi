@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
 export default function NoviaPage() {
-  const [isBot, setIsBot] = useState(null);
+  const [isBot, setIsBot] = useState<boolean | null>(null);
   const [showText, setShowText] = useState(false);
   const [showSecretButton, setShowSecretButton] = useState(false);
   const [showSecret, setShowSecret] = useState(false);
